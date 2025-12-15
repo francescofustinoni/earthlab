@@ -1,28 +1,9 @@
-# Entornos y dependencias
-env/
-.conda/
-*.yml
-*.yaml
-
-# Archivos de datos grandes
-*.hdf
+# Data (ignored)
+data/
+outputs/
 *.tif
-*.csv
-*.zip
-*.tar
-*.tar.gz
-*.nc
+*.tiff
+*.npy
 
-# Archivos temporales de Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.ipynb_checkpoints/
-
-# Archivos ocultos o de sistema
-.DS_Store
-Thumbs.db
-
-# Archivos de VS Code
-.vscode/
+# Figures (tracked)
+!figures/

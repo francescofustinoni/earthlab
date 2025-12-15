@@ -1,9 +1,17 @@
-# Data (ignored)
+# Environments
+env/
+
+# Data
 data/
 outputs/
+BolivarProvinceEcuador/
+
+# Rasters / arrays
 *.tif
 *.tiff
+*.aux.xml
 *.npy
+*.npz
 
 # Figures (tracked)
 !figures/
